@@ -1,0 +1,88 @@
+[
+  {
+    "elements": [
+      {
+        "id": "search-hotels;search-hotels-with-an-invaild-city",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Search hotels with an invaild city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "As a room user, I launch room app",
+            "result": {
+              "status": "passed",
+              "duration": 8319545754
+            },
+            "line": 5,
+            "match": {
+              "location": "E:\\rumapractice\\ProjectProtractor\\step_definitions\\room.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search hotels with VALUE as \"sgfgfs\"",
+            "result": {
+              "status": "passed",
+              "duration": 4852809
+            },
+            "line": 6,
+            "match": {
+              "location": "E:\\rumapractice\\ProjectProtractor\\step_definitions\\room.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 1910245809
+            },
+            "line": 7,
+            "match": {
+              "location": "E:\\rumapractice\\ProjectProtractor\\step_definitions\\room.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see \"Please type in a location\" alert",
+            "result": {
+              "status": "passed",
+              "duration": 1009892930
+            },
+            "line": 8,
+            "match": {
+              "location": "E:\\rumapractice\\ProjectProtractor\\step_definitions\\room.js:50"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature: Search Hotels",
+            "line": 1
+          },
+          {
+            "name": "@env:test",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-hotels",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Search Hotels",
+    "tags": [
+      {
+        "name": "@feature: Search Hotels",
+        "line": 1
+      }
+    ],
+    "uri": "E:\\rumapractice\\ProjectProtractor\\features\\sample.feature"
+  }
+]
